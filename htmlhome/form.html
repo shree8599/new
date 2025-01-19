@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Personal details</legend>
+        <label for="name">Firstname:</label>
+        <input type="text" name="name" id="name" required autofocus>
+        <br>
+        <br>
+        <label for="mid">Middlename</label>
+        <input type="text" name="mid" id="mid" required>
+        <br>
+        <br>
+        <label for="last">Lastname:</label>
+        <input type="text" name="last" id="last" required>
+        <br>
+        <br>
+        <label for="course">Course:</label>
+        <select name="course" id="">
+            <option value="" disabled selected>course</option>
+            <option value="FY">FY</option>
+            <option value="SY">SY</option>
+            <option value="TY">TY</option>
+        </select>
+        <br>
+        <br>
+        <label for="class">Gender:</label>
+        <br>
+        <input type="radio" name="class" id="s1" value="male"> Male
+        <br>
+        <input type="radio" name="class" id="s2" value="female"> Female
+        <br>
+        <input type="radio" name="class" id="s3" value="other"> Other
+        <br>
+        <br>
+        <label for="dob">DOB: </label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" id="phone" required> >
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id=""></textarea>
+        <br>    
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <br>
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <label for="pass">Re-type password:</label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+        <br>
+
+        <input type="radio" name="agree" id="agree" required>Agree terms and conditions
+        <br>
+        <br>
+        <label for="file"> Choose file :</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <br>
+
+        <label for="color"> Choose color:</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+        </fieldset>
+</body>
+</html>
