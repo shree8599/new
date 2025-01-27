@@ -1,0 +1,28 @@
+header {
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 20vw;
+    height: 80vh;
+  
+}
+
+
+
+.nutrition {
+  
+  display: flex;
+  text-align: center;
+  height: 10vh;
+  width: 80%;
+  padding-left: 10%;
+  border-bottom: 1px solid black;
+  margin-left: 4%;
+  padding-bottom: 0%;
+
+}
+
+.servings {
+  display: flex;
+ justify-content: space-between;
+ 
+}

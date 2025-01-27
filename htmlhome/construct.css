@@ -1,0 +1,69 @@
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #333;
+    background-image: linear-gradient(to top, #453e3e, #000);
+    height: 40px;
+
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+button{
+    border: none;
+    background-color: white;
+    font-size: medium  ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0.5rem 1rem;
+    
+}
+.hero {
+    height: 500px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 25px;
+
+}
+.photos img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    background-color: #000;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+    color: whitesmoke;
+    height: 500px;
+    text-align: justify;
+    position: relative;
+}
+.content img{
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+    position: relative;
+    top: 10%;
+}
+.content p{
+    width: 40%;
+    padding: 1rem;
+    position: relative;
+    top: 48%;
+
+}
