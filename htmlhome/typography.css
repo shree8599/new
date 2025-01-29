@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main{
+    width: 35%;
+    margin: 1% auto;
+    text-align:start
+}
+.video{
+    width: 35%;
+    margin: 1% auto;  
+ 
+}
