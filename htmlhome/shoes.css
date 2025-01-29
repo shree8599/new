@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(photos/gradient.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+
+
+    width: 80%;
+    height: 80vh;
+    margin: 5% auto;
+  background-image:url(photos/red.jpeg);
+  background-repeat: no-repeat;
+ background-size: cover;
+ color: aliceblue;
+
+ position: relative;
+ 
+
+}
+.inner{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 40px;
+
+  
+
+}
+.imagecontainer{
+    display: flex;
+    width: 550px;
+position: absolute;
+top: 50px;
+right: 0px;
+
+
+
+   
+}
+.imagecontainer img:hover{
+    transform: scale(1.7);
+}
+.imagecontainer img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+
+}
+
+
