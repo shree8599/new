@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    
+
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../photos/header-background.jpg);
+    
+}
+.header{
+    width: 100%;
+    height: 8%;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.5rem 3rem;
+    z-index: 2;
+   
+    
+}
+.header img{
+    width: 7rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 0.7rem;
+}
+nav i{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 10px;
+    width: 20px;
+  
+}
+.content{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  
+    color: white;
+
+}
+.content h1{
+    font: 700 2.5rem / 4rem "Montserrat", sans-serif;
+
+}
+
+#after-content::before{
+    content: "TEMPLATE";
+    animation-name: content-change;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+    @keyframes content-change {
+      0%{
+        content: "TEMPLATE";
+      }
+      50%{
+          content: "SERVICES";
+      }
+      100%{
+          content: "SOLUTIONS";
+      }
+    }
+
+
+.content p{
+   
+    margin-bottom: 10px;
+    text-wrap: wrap;
+    font: 400 1.125rem / 1.625rem "Open Sans", sans-serif;
+    display: flex;
+    width: 60%;
+    text-align: center;
+    color: #cac4c4;
+    
+}
+.content a{
+    display: inline-block;
+    padding: 1.5rem 2.5rem 1.375rem 2.125rem;
+    border: 0.125rem solid #14bf98;
+    border-radius: 0.25rem;
+    background-color: #14bf98;
+    color: #fff;
+    font: 700 1rem / 0 "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-top: 1rem;
+}
+.content a:hover{
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.intro{
+    width: 100%;
+    height: 100%;  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+    
+}
+.left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-size: large;
+}
+.left h1,.left b{
+    font: 700 1.5rem / 2rem "Montserrat", sans-serif;
+   
+}
+
+
+.right img{
+height: 100%;
+width: 85%;
+ object-fit: cover;
+margin-left: 2rem;
+
+}
+.right img:hover{
+    transition: transform 0.5s;
+}
+.int{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+    margin: 0 0.5rem ;
+}
+.semintro{
+    width: 25%;
+    margin-left: 1rem;
+
+}
+.semintro i{
+    font-size: 3rem;
+    color: black;
+    background-image: url('../photos/OIP.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+}
+
